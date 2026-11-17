@@ -13,9 +13,10 @@
 <link rel="preload" as="image" href="img/artur-m-600.webp" imagesrcset="img/artur-m-400.webp 400w, img/artur-m-600.webp 600w, img/artur-m-800.webp 800w" imagesizes="(max-width:760px) 82vw" media="(max-width:760px)" fetchpriority="high">
 <link rel="preload" as="image" href="img/artur-720.webp" imagesrcset="img/artur-480.webp 480w, img/artur-720.webp 720w, img/artur-960.webp 960w" imagesizes="(min-width:761px) 34vw" media="(min-width:761px)" fetchpriority="high">
 <link rel="preload" as="font" type="font/woff2" href="fonts/manrope-rdzen.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/manrope-pl.woff2" crossorigin>
 <style>
-@font-face{font-family:Manrope;font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/manrope-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+20AC}
-@font-face{font-family:Manrope;font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/manrope-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:Manrope;font-style:normal;font-weight:400 800;font-display:optional;src:url(fonts/manrope-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:Manrope;font-style:normal;font-weight:400 800;font-display:optional;src:url(fonts/manrope-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
 @font-face{font-family:"Manrope fb";src:local("Arial");size-adjust:104%;ascent-override:100%;descent-override:28%}
 /* kolory z logo i strony: niebieski #185DDE, granat #373E53, lupkowy #65768E, rama #E7E7E7 */
 :root{--bl:#185DDE;--bl-d:#1249B5;--nv:#1D2438;--ft:#141A2B;--ink:#151B2B;--mut:#55647A;--sl:#65768E;--fr:#E7E7E7;--g:#F2F4F8;--line:#DCE1EA;--hh:72px;--r:22px;--w:min(calc(100vw - 32px),1680px);--F:Manrope,"Manrope fb",Arial,sans-serif}
@@ -301,7 +302,7 @@ footer .logo b,footer .logo small{color:#fff}
 <a class="skip" href="#tresc">Przejdź do treści</a>
 <header class="top" id="top">
   <div class="wrap">
-    <a class="logo" href="#start" aria-label="Ekspert Finansowy Artur Pawlak, strona główna">
+    <a class="logo" href="#start">
       <img src="img/glowa-112-tlo.webp" width="46" height="46" alt="">
       <span><b>Ekspert Finansowy</b><small>ARTUR PAWLAK</small></span>
     </a>
